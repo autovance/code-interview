@@ -44,6 +44,8 @@
   "license": "MIT",
   "dependencies": {
     "chai": "^3.5.0",
+    "eslint": "^2.10.1",
+    "eslint-plugin-mocha": "^2.2.0",
     "lodash": "^4.11.1"
   }
 }
