@@ -38,8 +38,8 @@
   },
   "repository": "git@github.com:autovance/code-interview",
   "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "echo 'Be sure to use `npm run test:set-*` to test your question set.'",
+    "test:set-1": "gulp complete:back:set-1"
   },
   "license": "MIT",
   "dependencies": {
