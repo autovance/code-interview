@@ -1,9 +1,12 @@
 # code-interview
-Interview Questions for Autovance
-
+## Interview Questions for Autovance
 Welcome and good luck!
 
-## Interview Directions
+- [Interview Directions](#interview-directions)
+- [Required Tools](#required-tools)
+- [Recommended Tools](#recommended-tools)
+
+### Interview Directions
 1. Fork the repo and work on your own fork
 1. Clone and run `npm install`
 1. Find the set you are supposed to complete
@@ -13,7 +16,7 @@ Welcome and good luck!
 1. Commit your answers to github, and submit the test by linking the repo in an
 email to your interviewer!
 
-## Required Tools
+### Required Tools
 
 * git
 * github account

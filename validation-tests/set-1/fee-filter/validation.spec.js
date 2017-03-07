@@ -1,6 +1,6 @@
-import {expect} from 'chai';
+const {expect} = require('chai');
 
-import feeFilter from '../../../../lib/back/set-1/fee-filter';
+const feeFilter = require('../../../lib/set-1/fee-filter');
 
 describe('Validation Set-1:Fee Filter', () => {
   const include = [{

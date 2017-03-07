@@ -1,6 +1,6 @@
-import {expect} from 'chai';
+const {expect} = require('chai');
 
-import valueExpand from '../../../../lib/back/set-1/value-expand';
+const valueExpand = require('../../../lib/set-1/value-expand');
 
 describe('Validation Set-1:Value Expand', () => {
   const INPUT1 = {
