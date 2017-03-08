@@ -28,6 +28,8 @@ Welcome and good luck!
 We follow the angular commit message guidelines outlined [here](https://gist.github.com/stephenparish/9941e89d80e2bc58a153).
 Remember to use this format when you committing work, or the hooks will reject your commit!
 
+You can look at some of the existing commits in the repo for examples.
+
 ### Libraries Used
 
 *   [Lodash Utility](http://devdocs.io/lodash~4/)
