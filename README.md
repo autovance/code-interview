@@ -10,10 +10,10 @@ Welcome and good luck!
 
 1.  Fork the repo and work on your own fork
 1.  Clone and run `npm install`
-1.  Find the set you have been assigned in the `lib` directory
+1.  Find your assigned set in the `lib` directory
 1.  Complete the functions within the set
 1.  Write your own correctness tests for each question
-1.  Validate your answers by running `npm run test:set-*`
+1.  Test your answers by running `npm run test:set-*`
 1.  Commit your answers to github, and submit the test by linking the repo in an email to your interviewer!
 
 ### Required Tools
