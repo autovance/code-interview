@@ -4,6 +4,7 @@ Welcome and good luck!
 
 -   [Interview Directions](#interview-directions)
 -   [Required Tools](#required-tools)
+-   [Committing](#committing)
 -   [Libraries Used](#libraries-used)
 
 ### Interview Directions
