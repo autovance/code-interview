@@ -1,4 +1,0 @@
-validation-tests/set-2/**/*.spec.js
---reporter list
---no-timeouts
---ui bdd

@@ -25,7 +25,7 @@
     "dev": "cross-env NODE_ENV=development npm run verify:watch",
     "release": "npm-run-all verify test:coverage build ",
     "start": "npm run dev",
-    "test": "npm run test:unit",
+    "test": "echo 'Error! Please specify the test set that you wish to test. `npm run test:set-*`'",
     "test:check-coverage": "cross-env NODE_ENV=test istanbul check-coverage reports/coverage/coverage.json --config config/testUnit/istanbul.js",
     "test:coverage": "npm-run-all test:unit:once test:check-coverage --silent",
     "test:unit": "chokidar 'lib/**/*.js' 'test/**/*.js' -c 'npm run test:unit:once' --initial --silent",
