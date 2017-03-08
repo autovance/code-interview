@@ -36,10 +36,8 @@
     "verify:js:watch": "chokidar 'lib/**/*.js' 'test/**/*.js' 'config/**/*.js' -c 'npm run verify:js:fix' --initial --silent",
     "verify:watch": "npm run verify:js:watch --silent",
 
-    "test:unit:set-1": "cross-env NODE_ENV=test istanbul cover --config config/testUnit/istanbul.js _mocha -- --opts config/testUnit/set-1/mocha.opts",
-    "validate:unit:set-1": "cross-env NODE_ENV=test istanbul cover --config config/testUnit/istanbul.js _mocha -- --opts config/testUnit/set-1/mocha.validation.opts",
-    "test:set-1": "chokidar 'lib/set-1/**/*.js' -c 'npm run test:unit:set-1' --initial --silent",
-    "validate:set-1": "chokidar 'lib/set-1/**/*.js' 'validation-tests/set-1/**/*.js' -c 'npm run validate:unit:set-1' --initial --silent"
+    "test:set-1": "cross-env NODE_ENV=test istanbul cover --config config/testUnit/istanbul.js _mocha -- --opts config/testUnit/set-1/mocha.opts",
+    "test:set-2": "cross-env NODE_ENV=test istanbul cover --config config/testUnit/istanbul.js _mocha -- --opts config/testUnit/set-2/mocha.opts"
   },
   "config": {
     "commitizen": {

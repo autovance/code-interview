@@ -1,19 +1,23 @@
 ## Fee Filter
 
-The goal of this function is to filter fees that would be applied to a vehicle.
+> The purpose of this function is to filter fees that would apply to a vehicle.
+> We have three attributes in a vehicle:
+>  1. Model ID
+>  2. Province ID
+>  3. Vehicle Type
+> For the purposes of this test, what each attribute contains doesn't matter,
+> as long as they are consistent.
 
-We have three attributes in a vehicle:
-  1. Model ID
-  2. Province ID
-  3. Vehicle Type
+Create the function to do this, and write tests to ensure it's correct.
 
-For the purposes of this test, what each attribute contains doesn't matter,
-as long as it is consistent.
+### Goals
 
 The feeFilter function should:
   1. Filter any fees that do not match any of the three attributes
   2. Include any fees that match the attributes
   3. If an attribute is null, it does not count towards the filter
+
+### Example
 
 This would mean, if we have vehicle:
 
@@ -25,7 +29,7 @@ vehicle = {
 }
 ```
 
-Then these fees would be included:
+Then these fees are included:
 
 ```js
 fees = [
@@ -44,7 +48,7 @@ fees = [
 
 Because one of the attributes matches, and the other two are null, the fees match.
 
-A fee that looked like this would not be included:
+A fee that looks like this is not included:
 
 ```js
 fees = [
@@ -57,3 +61,7 @@ fees = [
 ```
 
 Even though vehicle type matches, province does not, so the fee is not returned.
+
+#### More Info
+
+Do not hesitate to email your interviewer if you have any questions.
