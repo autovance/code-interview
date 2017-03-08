@@ -1,16 +1,18 @@
 ## Value Expand
 
-We've finally received rate updates for some of our vehicles!  
-Unfortunately the rates are all combined into one object.
+> We've received rate updates for some of our vehicles!
+> Unfortunately the rates are all combined into one object. We need to separate them
+> into object representing each rate so we can use them.
+
+Create the function to do this, and write tests to ensure it's correct.
 
 ### Goals
 
-* The goal of this function is to expand each object value into an object
-array with each rate.
-* Each object in the array will have set the keys `start_term` and `end_term` value to the value key, and set the key `rate` to it's value.
-* You will get a constant string called `idAttribute` which will contain the UUID for each rate. You must match the rate to the corresponding UUID.
+*   The goal of this function is to expand each object value into an object array with each rate.
+*   Each object in the array will have set the keys `start_term` and `end_term` value to the value key, and set the key `rate` to it's value.
+*   You will get a constant string called `idAttribute` which will contain the UUID for each rate. You must match the rate to the corresponding UUID.
 
-### Example:
+### Example
 
 Environment:
 ```js
@@ -67,3 +69,7 @@ Would output:
   ]
 }
 ```
+
+#### More Info
+
+Do not hesitate to email your interviewer if you have any questions.
