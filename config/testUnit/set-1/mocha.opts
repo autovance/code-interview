@@ -1,0 +1,4 @@
+lib/set-1/**/*.spec.js
+--reporter list
+--no-timeouts
+--ui bdd
