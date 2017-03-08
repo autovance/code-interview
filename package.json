@@ -35,7 +35,6 @@
     "verify:js:fix": "eslint --fix -c config/verify/.eslintrc \"lib/**/*.js\" \"test/**/*.js\" \"config/**/*.js\" && echo ✅ verify:js:fix success",
     "verify:js:watch": "chokidar 'lib/**/*.js' 'test/**/*.js' 'config/**/*.js' -c 'npm run verify:js:fix' --initial --silent",
     "verify:watch": "npm run verify:js:watch --silent",
-
     "test:set-1": "cross-env NODE_ENV=test istanbul cover --config config/testUnit/istanbul.js _mocha -- --opts config/testUnit/set-1/mocha.opts",
     "test:set-2": "cross-env NODE_ENV=test istanbul cover --config config/testUnit/istanbul.js _mocha -- --opts config/testUnit/set-2/mocha.opts"
   },
@@ -51,7 +50,9 @@
     "chai": "^3.5.0",
     "eslint": "^2.10.1",
     "eslint-plugin-mocha": "^2.2.0",
-    "lodash": "^4.11.1"
+    "lodash": "^4.11.1",
+    "when": "^3.7.8",
+    "mocha": "3.2.0"
   },
   "devDependencies": {
     "chokidar-cli": "1.2.0",
@@ -65,7 +66,6 @@
     "husky": "0.13.1",
     "isparta": "^3.0.3",
     "istanbul": "0.4.5",
-    "mocha": "3.2.0",
     "npm-run-all": "4.0.1",
     "rimraf": "2.5.4"
   }
