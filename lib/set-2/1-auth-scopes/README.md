@@ -20,20 +20,20 @@ Given these roles:
 
 ```js
   
-  let scopes = {
-    login: 1,
-    delete: 2,
-    update: 3
-  };
+  let scopes = [
+    {id: 1, name: 'login'},
+    {id: 2, name: 'update'},
+    {id: 3, name: 'delete'}
+  ];
 
   let roles = {
-    global: {scopes: [scopes.login, scopes.delete, scopes.update]},
-    user: {scopes: [scopes.login]},
-    admin: {scopes: [scopes.login, scopes.update]}
+    global: {scopes: [scopes[0].id, scopes[1].id, scopes[2].id]},
+    user: {scopes: [scopes[0].id]},
+    admin: {scopes: [scopes[0].id, scopes[2].id]}
   };
 
   let users = {
-    userOne: {scopes: [1, 3]}
+    userOne: {scopes: [1, 2]}
   };
 ```
 
