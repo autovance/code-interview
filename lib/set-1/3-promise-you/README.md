@@ -17,15 +17,8 @@ Create the function to do this, and write tests to ensure it's correct.
 Given these mock async calls:
 
 ```js
-function requestOne() {
-  sleep(100);
-  return 1;
-}
-
-function requestTwo() {
-  sleep(200);
-  return 2;
-}
+  let requestOne = sinon.stub().resolves(1);
+  let requestTwo = sinon.stub().resolves(2);
 ```
 
 Return a function that aggregates the function results:
